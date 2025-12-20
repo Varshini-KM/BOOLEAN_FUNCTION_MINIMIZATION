@@ -16,7 +16,14 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Theory**
 
-**Logic Diagram**
+In digital electronics, logic functions are Boolean expressions that define the relationship between input variables and the output. These functions are implemented using fundamental logic gates such as AND, OR, and NOT.
+Verilog is a Hardware Description Language (HDL) widely used for modeling, designing, and verifying digital circuits.
+
+In this experiment, the given Boolean logic functions F1 and F2 are implemented using combinational logic in Verilog. The assign statement is used to describe the logical relationship between inputs and outputs in a continuous manner.
+The design is compiled and simulated using Quartus Prime, and its correctness is verified through RTL schematic generation and timing diagram analysis.
+
+Additionally, RTL-level simulation provides a clear visualization of internal logic behavior before hardware implementation, thereby minimizing design errors.
+This experiment also demonstrates how Verilog HDL simplifies the design, testing, and verification of combinational logic circuits in modern digital systems.
 
 **Procedure**
 
