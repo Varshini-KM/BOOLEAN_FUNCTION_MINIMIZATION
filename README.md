@@ -16,26 +16,27 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Theory**
 
-In digital electronics, logic functions are Boolean expressions that define the relationship between input variables and the output. These functions are implemented using fundamental logic gates such as AND, OR, and NOT.
-Verilog is a Hardware Description Language (HDL) widely used for modeling, designing, and verifying digital circuits.
+Digital logic circuits can be implemented using Boolean expressions and verified using Hardware Description Languages (HDLs) such as Verilog. Verilog allows the designer to describe the behavior and structure of digital circuits using simple programming constructs.
 
-In this experiment, the given Boolean logic functions F1 and F2 are implemented using combinational logic in Verilog. The assign statement is used to describe the logical relationship between inputs and outputs in a continuous manner.
-The design is compiled and simulated using Quartus Prime, and its correctness is verified through RTL schematic generation and timing diagram analysis.
+In this experiment, the given logic function is implemented using basic logic gates such as NOR and NAND gates. The circuit is purely combinational, meaning the output depends only on the present inputs and not on any previous state. Hence, continuous assignment statements are used in Verilog to model the logic behavior.
 
-Additionally, RTL-level simulation provides a clear visualization of internal logic behavior before hardware implementation, thereby minimizing design errors.
-This experiment also demonstrates how Verilog HDL simplifies the design, testing, and verification of combinational logic circuits in modern digital systems.
+The inputs are first applied to intermediate logic gates to generate internal signals. These internal signals are declared as wire data types because they carry continuously driven values. The final output is obtained by applying logical operations on these intermediate signals.
+
+The Verilog code is compiled and simulated using Intel Quartus Prime software. Functional verification is performed by applying different combinations of inputs and observing the corresponding output in the simulation waveform. This confirms that the implemented logic function matches the expected truth table and operates correctly.
+
+Thus, Quartus provides an efficient platform for design, simulation, and verification of digital logic circuits before hardware implementation.
 
 **Procedure**
 
-1.	Type the program in Quartus software.
+1.Type the program in Quartus software.
 
-2.	Compile and run the program.
+2.Compile and run the program.
 
-3.	Generate the RTL schematic and save the logic diagram.
+3.Generate the RTL schematic and save the logic diagram.
 
-4.	Create nodes for inputs and outputs to generate the timing diagram.
+4.Create nodes for inputs and outputs to generate the timing diagram.
 
-5.	For different input combinations generate the timing diagram.
+5.For different input combinations generate the timing diagram.
 
 
 **Program:**
@@ -65,7 +66,7 @@ Developed by: RegisterNumber: 25018756
 
 F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fad87da1-afef-4393-803a-a89e76136694" />
+<img width="1920" height="1080" alt="17664859006188779294576152428389" src="https://github.com/user-attachments/assets/2bbdb91c-3109-4d2e-b162-a2b320a8b894" />
 
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
