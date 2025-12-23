@@ -71,7 +71,7 @@ F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d0cc3c0-64b9-4de8-8a40-01acd48d7681" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ecc9d44-fc34-42b5-b3f1-6b6713dc4c0c" />
 
 
 
@@ -83,15 +83,19 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
+F1=B'D'+ABC'+A'BD(MINIMISED)
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b42adff9-651f-4ab1-8488-ccb1ab0a00b9" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/80f37857-7a37-4e2e-94e6-780bf4392baf" />
 
 
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
+F2=y'z+ wy + xy(MINIMISED)
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f7c667c1-b139-4e9a-9206-e4c5e6fc3b70" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86d7ab81-9a12-44dc-bef1-5b8c175fc2b8" />
 
 
 
